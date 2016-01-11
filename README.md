@@ -1,10 +1,11 @@
 # FREEBSD
 
 
+# Getting your window manager installed
 
-# install X-org server
 $ pkg install xorg
-
-# install window manager
 $ pkg install dwm
+$ echo "exec dwm" /~.xinit.rc
+
+
 
