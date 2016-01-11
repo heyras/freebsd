@@ -6,7 +6,8 @@
 ```
 $ pkg install xorg
 $ pkg install dwm
-$ echo "exec dwm" /~.xinit.rc
+$ echo "exec dwm" > /~.xinit.rc
+$ startx
 ```
 
 
