@@ -34,6 +34,10 @@ EOF
 # startx
 
 ; once X is started, run setxkbmap dk to get the right keyboard.
+
+; if the screen blacks out after exit from X, add to loader.conf and reboot
+# echo kern.vty=vt >> /boot/loader.conf
+
 ```
 
 
