@@ -10,6 +10,7 @@
 # pkg install surf-browser
 # pkg install password-store
 # pkg install vim-lite
+# pkg install tarsnap
 # pkg install liberation-fonts-ttf
 # pkg install sourcecodepro-ttf
 
@@ -31,6 +32,8 @@ EOF
 # cd
 # echo "exec dwm" > ~/.xinitrc
 # startx
+
+; once X is started, run setxkbmap dk to get the right keyboard.
 ```
 
 
